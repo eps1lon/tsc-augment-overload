@@ -1,4 +1,2 @@
-declare function get(): string;
-declare function set(value: string): void;
-
-export { get, set };
+export function get(): string;
+export function set(value: string): void;
